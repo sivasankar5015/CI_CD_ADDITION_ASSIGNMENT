@@ -19,7 +19,7 @@ spec:
         spec:
            containers:
            - name: addapic
-             image: skumar24/addapi:$BUILD_NUMBER
+             image: siva3100/addapi:$BUILD_NUMBER
              ports:
              - containerPort: 8080
 ---
@@ -45,7 +45,7 @@ spec:
         spec:
            containers:
            - name: a19ddsvcc
-             image: skumar24/addsvc:$BUILD_NUMBER
+             image: siva3100/addsvc:$BUILD_NUMBER
              ports:
              - containerPort: 3306
 ---
